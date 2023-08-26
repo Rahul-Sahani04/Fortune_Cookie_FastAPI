@@ -58,3 +58,8 @@ def get_random_message():
     if not result:
         raise HTTPException(status_code=404, detail="No messages available")
     return {"id": result[0][0], "message": result[0][1]}
+
+
+import uvicorn
+if __name__ == "__main__":
+  uvicorn.run("server.api:app", host="0.0.0.0", port=8000, reload=True)
