@@ -30,12 +30,12 @@ To get started with Your Project Name, follow these steps:
    ```sh
    git clone https://github.com/yourusername/your-project.git
    cd your-project
-```
+   ```
 
-Install dependencies using pip:
-```sh
-pip install -r requirements.txt
-```
+2. Install dependencies using pip:
+  ```sh
+  pip install -r requirements.txt
+  ```
 
 **Part 5: Usage**
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 Run Your Project Name using Uvicorn:
 ```sh
-uvicorn app:app --host 0.0.0.0 --port 8000
+  uvicorn app:app --host 0.0.0.0 --port 8000
 ```
 Visit http://localhost:8000 in your browser to explore the API.
 
