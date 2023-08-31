@@ -24,11 +24,11 @@ Welcome to FortuneAPI, an engaging and efficient API built using FastAPI. Design
 
 ## Installation
 
-To get started with Your Project Name, follow these steps:
+To get started with Fortune Cookie API, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-project.git
+   git clone https://github.com/Rahul-Sahani04/Fortune_Cookie_FastAPI.git
    cd your-project
    ```
 
@@ -41,7 +41,7 @@ To get started with Your Project Name, follow these steps:
 
 ## Usage
 
-Run Your Project Name using Uvicorn:
+Run Fortune Cookie API using Uvicorn:
 ```sh
   uvicorn app:app --host 0.0.0.0 --port 8000
 ```
@@ -61,7 +61,8 @@ Here are some of the key API endpoints:
 
 - **DELETE /cookie/{message_id}/**
   Delete a specific fortune cookie message.
-Part 7: Configuration
+  
+**Part 7: Configuration**
 
 ## Configuration
 
